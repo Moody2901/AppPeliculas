@@ -7,6 +7,9 @@ android {
     namespace 'com.moody.peliculas'
     compileSdk 33
 
+    buildFeatures{
+        viewBinding = true
+    }
     defaultConfig {
         applicationId "com.moody.peliculas"
         minSdk 26
